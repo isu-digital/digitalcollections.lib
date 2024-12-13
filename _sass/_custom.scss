@@ -1,0 +1,53 @@
+/* 
+    Put your custom SCSS here! 
+    This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
+*/
+
+/* navbar */
+#tower-logo {
+    max-height: 45px;
+}
+#nav-logo {
+    max-height: 45px;
+}
+.bg-dark {
+    background-color: rgba(25, 25, 25, var(--bs-bg-opacity)) !important;
+}
+
+// fix pride gold outlines
+.btn-outline-primary, .btn-outline-pride-gold {
+    color: #191919;
+}
+
+/* override icon styles */
+.icon-nav {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.1em;
+}
+
+/* footer */
+footer, footer a {
+    color:white !important;
+    font-weight: 300;
+    background-color: #191919;
+}
+#footer-logo {
+    max-height: 120px;
+}
+.border-pride-gold {
+    border-color: #F1B300 !important;
+}
+
+/* index */
+#home-title-box {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+#carouselInner {
+    .carousel-caption {
+        max-width: 750px;
+        margin-left: auto;
+    }
+}
+#imageCarousel .carousel-item { height: 600px; }
