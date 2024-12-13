@@ -10,33 +10,12 @@
 #nav-logo {
     max-height: 45px;
 }
-.bg-dark {
-    background-color: rgba(25, 25, 25, var(--bs-bg-opacity)) !important;
-}
-
-// fix pride gold outlines
-.btn-outline-primary, .btn-outline-pride-gold {
-    color: #191919;
-}
 
 /* override icon styles */
 .icon-nav {
     width: 1em;
     height: 1em;
     vertical-align: -0.1em;
-}
-
-/* footer */
-footer, footer a {
-    color:white !important;
-    font-weight: 300;
-    background-color: #191919;
-}
-#footer-logo {
-    max-height: 120px;
-}
-.border-pride-gold {
-    border-color: #F1B300 !important;
 }
 
 /* index */
@@ -51,3 +30,74 @@ footer, footer a {
     }
 }
 #imageCarousel .carousel-item { height: 600px; }
+
+/* footer */
+.footer-section-label {
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-top: 3.75rem !important;
+    padding: 0; 
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.44444;
+    font-family: Merriweather,serif;
+    font-weight: 700;
+}
+
+.footer-links > a:hover {
+    color: #f1be48;
+}
+
+.footer-list {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+    font-family: Arial,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    text-decoration-thickness: .0625rem;
+    text-underline-offset: .0625rem;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.footer-text {
+    color: white;
+    font-family: Arial,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.footer-list > a {
+    color: #fff;
+    font-family: Arial,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    font-size: .9375rem;
+    text-decoration: underline;
+    line-height: 1.4;
+    padding: 0 .5rem;
+}
+
+.footer-list > a:hover {
+    color: #f1be48;
+}
+
+.social {
+    border: .125rem solid #f1be48;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.social svg {
+    width: 60%;
+    height: 60%;
+    color: #f1be48;
+}
+
+.social:hover {
+    background-color: #7c2529;
+}

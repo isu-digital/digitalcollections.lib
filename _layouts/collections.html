@@ -11,7 +11,7 @@ custom-foot: js/browse-js.html
     <ul class="dropdown-menu">
         {% assign subjects = site.data[site.metadata] | map: "categories" | join: ';' | split: ';' | compact | uniq | sort %}
         {% for s in subjects %}
-        <li><a class="dropdown-item" href="{{ '/home/collections.html' | relative_url }}#{{ s }}">{{ s }}</a></li>
+        <li><a class="dropdown-item" href="{{ '/collections.html' | relative_url }}#{{ s }}">{{ s }}</a></li>
         {% endfor %}
     </ul>
 </div>

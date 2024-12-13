@@ -12,7 +12,7 @@ custom-foot: js/index-js.html
                 <div class="card bg-dark bg-opacity-75">
                     <div class="card-body text-center">
                         <h1 class="text-white mt-3 mb-4 h2">
-                            <small>University of Idaho Library</small><br>
+                            <small>Iowa State University Library</small><br>
                             <span class="display-4">Digital Collections</span>
                         </h1>
 
@@ -74,7 +74,7 @@ custom-foot: js/index-js.html
             <div class="card h-100">
                 <div class="card-body">
                     <h3 class="card-title h4">Description</h3>
-                    <p class="card-text">University of Idaho Library Digital Collections make tens of thousands of rare and unique items openly available online for research and learning.</p>
+                    <p class="card-text">Iowa State University Library Digital Collections make tens of thousands of rare and unique items openly available online for research and learning.</p>
                     <a class="btn btn-primary" href="{{ '/home/about.html' | relative_url }}">Learn More &raquo;</a>
                 </div>
             </div>
@@ -84,12 +84,12 @@ custom-foot: js/index-js.html
                 <div class="card-body">
                     <h3 class="card-title h4">Total Collections</h3>
                     <p class="card-text">
-                        <a class="text-dark" href="{{ '/home/collections.html' | relative_url }}"><svg class="bi icon-sprite" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/home/assets/lib/cb-icons.svg' | relative_url }}#icon-compound-object"/></svg> {{ items | size }}</a>
+                        <a class="text-dark" href="{{ '/home/collections.html' | relative_url }}"><svg class="bi icon-sprite" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-compound-object"/></svg> {{ items | size }}</a>
                     </p>
                     <h3 class="card-title h4">Total Items</h3>
                     {% assign items_count = 0 %}{% for i in items %}{% assign items_count = items_count | plus: i.item_count %}{% endfor %}
                     <p class="card-text">
-                        <a class="text-dark" href="https://digital.lib.uidaho.edu/search"><svg class="bi icon-sprite" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/home/assets/lib/cb-icons.svg' | relative_url }}#icon-record"/></svg> {{ items_count }}</a>
+                        <a class="text-dark" href="https://digital.lib.uidaho.edu/search"><svg class="bi icon-sprite" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-record"/></svg> {{ items_count }}</a>
                     </p>
                     <h3 class="card-title h4">Time Span</h3>
                     <p class="card-text">
@@ -139,7 +139,5 @@ custom-foot: js/index-js.html
             </button>
         </div>
     </div>
-
-    {% include index/data-download.html %}
 
 </div>

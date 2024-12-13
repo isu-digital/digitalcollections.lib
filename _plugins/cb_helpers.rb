@@ -38,7 +38,7 @@ module CollectionBuilderHelperGenerator
       if featured_image.include? "/"
         # if featured image is a link
         featured_item_src = featured_image
-        featured_item_alt = site.config['title']
+        featured_item_alt = site.data['theme']['featured-image-alt'] || site.config['title']
         featured_item_link = featured_item_src
       else
         # if featured image is an objectid

@@ -8,7 +8,8 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: demo_001
+featured-image: https://www.lib.uidaho.edu/media/digital/small/uihistorical.jpg
+featured-image-alt: historic photograph of old admin building on campus
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
@@ -96,7 +97,7 @@ bootswatch: # leave blank or comment out for plain bootstrap
 # THEME FONTS [optional!]
 base-font-size: 1.2em
 text-color: "#191919"
-link-color: "#0d6efd"
+link-color: "#7c2529"
 base-font-family: # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 

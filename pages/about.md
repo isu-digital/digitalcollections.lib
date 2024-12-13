@@ -8,26 +8,73 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/campus/campus00811.jpg" heading="Digital Collections" text="Iowa State University Library" padding="6em" %}
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
+{% include feature/nav-menu.html sections="What to expect;How to Find the Collections;How to Use the Collections;Availablility;Contact" %}
 
-## About CollectionBuilder CSV
+# About Digital Collections
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+## What to expect
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+Digital Collections provides free online access to over 20,000 of the Iowa State University Library’s rare and unique resources. Many of its resources have been digitized from the library’s Special Collections and University Archives. The resources support the teaching, learning and research needs of scholars, educators, students, and the public. New items are added on a regular basis. If you’re interested in contributing to or creating a digital collection, [please reach out](https://forms.office.com/r/rbtMLy9D7i){:target="_blank" rel="noopener"}.  
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The resources span thematic areas focusing on ISU research areas such as science, technology, agriculture, natural resources, political movements, historic events, ISU faculty, students, alumni, Iowa State University, and the State of Iowa. Resource formats include student yearbooks, photographs, maps, books, letters, diaries, and more. All digital files are accompanied by metadata (descriptive, technical, and administrative information) related to the resources to provide greater context. It is our hope that you peruse, browse, learn, and enjoy. 
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+***Please Note***
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+*Digital collections materials come from a broad range of sources and time periods. Some of these materials may be offensive, disrespectful, or contain negative stereotypes. Their presence should be viewed and considered within their historical context. They do not represent the views of Iowa State University or the Library, which strives to create and maintain a welcoming and inclusive environment.*
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+## How to Find the Collections
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+Our Digital Collections pages are a work in progress during Spring 2025! Part of this work includes creating an advanced search feature. Therefore, searching across all items in all collections at the same time is not yet possible. This will be available by summer 2025. Our new CollectionBuilder platform offers a wide variety of search possibilities, which are outlined below.
+
+To search across all collections, use the [main portal](https://digitalcollections.lib.iastate.edu/){:target="_blank" rel="noopener"}. You can browse the cards for each collection or use the search bar to search for terms (text searched will be collection titles and descriptions only). Searching at the resource level, such as for text within the resources, needs to be done at the collection level (and can only be done for when machine readable text exists – not all resources, especially handwritten, include resource text). 
+
+*Browsing*
+
+You can casually look through any or all our digital collections by scrolling through the browse or data pages. If a collection has more than one subject or location assigned, you can browse these pages as well and select terms of interest to view relevant collections or digital collection items (when you are within a specific collection).
+
+If you would like to view the items you see here in-person ask [Special Collections and University Archives]( https://specialcollections.lib.iastate.edu/){:target="_blank" rel="noopener"} and they will happily gather the materials for you. Most materials within Digital Collections are from Special Collections and University Archives (SCUA), but not all. The item description (metadata) field “contributing institution” will denote if the item is within SCUA or the general library. 
+
+## How to Use the Collections
+
+*Integrate collection materials into teaching materials.*
+
+Though nothing replaces the experience of having a physical object in your hands, the digital platform allows distance viewing and easier integration of materials into class outcomes. You can either encourage the use of the digital collections platform to view and analyze objects relevant to your teaching goals or develop something a little more robust. A digital exhibit is a great way to facilitate specific experiences and interaction with the digital collections and can make a hands-on project based experience for your students.
+
+### Create a digital scholarship project 
+
+Beyond display, you can create a project that pulls directly from our digital collections to support a research question! Let’s use avIAn as an example. This project was developed to understand the networks and research observations of early Iowa ornithologists and how those sightings contributed to overall trends across North America by connecting directly to the North American Bird Phenology Program. Not only are the digital collections a wealth of historical documents and photographs, but these items may also be thought of as data that can be integrated into database projects, iterated on using programming languages, and revisualized as an interactive dataset. 
+
+### Build for the community 
+
+Though this project pre-dates the capabilities of our digital collections platform, the ISU Art Map is an example of a way to create a community resource built on digital collection materials. Since digital collections are available to the public, anyone in the community can interact and benefit from these materials. Digital Scholarship & Initiatives not only supports the development and integration of the digital collections into projects, but strongly encourages that the result is a public-facing contribution to communities beyond campus. 
+
+## Availability
+
+Most collections should be available to users on and off campus. Occasionally, collections may be restricted, and this will be noted in the description. If you have issues accessing the online materials, [please contact us](https://forms.office.com/r/rbtMLy9D7i){:target="_blank" rel="noopener"}.
+
+## Improve Digital Collections 
+
+We are always looking for ways to improve our collections and the digital collection platform. If you have ideas for improvement, we welcome your feedback. As an ongoing initiative, we are creating transcriptions of our digital collections to facilitate full-text, keyword searching, and computational analysis.  
+
+Collection Development Process  
+1. Project proposed 
+2. Stakeholders determine scope and deliverables 
+3. Project evaluated by Collection Development Team using selection criteria 
+4. If chosen, project enters the project creation workflow 
+5. Project assessment and selection
+    a. ​Specific materials identified for inclusion
+    b. Individual materials assessed for inclusion. Considerations include:
+        i. Rights, privacy, and ethics
+        ii. Access and use
+        iii. Time and effort  
+6. Conservation assessment and stabilization 
+7. Digitization 
+8. Metadata generation 
+9. Digital collection added to CollectionBuilder, the ISU Library’s digital collections platform 
+10. Digital collection made available to the public 
+
+## Contact
+
+<a href="https://forms.office.com/r/rbtMLy9D7i" class="btn btn-outline-primary m-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
