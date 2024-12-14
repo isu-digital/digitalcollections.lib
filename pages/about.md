@@ -8,29 +8,34 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/campus/campus00811.jpg" heading="Digital Collections" text="Iowa State University Library" padding="6em" %}
+{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/universityphotographs/rs-4-8-h_library_170-01-02.jpg" heading="Digital Collections" text="Iowa State University Library" padding="6em" %}
 
-{% include feature/nav-menu.html sections="What to expect;How to Find the Collections;How to Use the Collections;Availablility;Contact" %}
+{% include feature/nav-menu.html sections="What to Expect;How to Find the Collections;How to Use the Collections;Availablility;Contact" %}
 
 # About Digital Collections
 
-## What to expect
+## What to Expect
 
 Digital Collections provides free online access to over 20,000 of the Iowa State University Library’s rare and unique resources. Many of its resources have been digitized from the library’s Special Collections and University Archives. The resources support the teaching, learning and research needs of scholars, educators, students, and the public. New items are added on a regular basis. If you’re interested in contributing to or creating a digital collection, [please reach out](https://forms.office.com/r/rbtMLy9D7i){:target="_blank" rel="noopener"}.  
 
 The resources span thematic areas focusing on ISU research areas such as science, technology, agriculture, natural resources, political movements, historic events, ISU faculty, students, alumni, Iowa State University, and the State of Iowa. Resource formats include student yearbooks, photographs, maps, books, letters, diaries, and more. All digital files are accompanied by metadata (descriptive, technical, and administrative information) related to the resources to provide greater context. It is our hope that you peruse, browse, learn, and enjoy. 
 
-***Please Note***
+<a href="{{ '/collections.html' | relative_url }}" class="btn btn-outline-primary m-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg> Browse Digital Collections</a>
+<a href="https://forms.office.com/r/rbtMLy9D7i" class="btn btn-outline-primary m-3" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
+{:.text-center}
 
-*Digital collections materials come from a broad range of sources and time periods. Some of these materials may be offensive, disrespectful, or contain negative stereotypes. Their presence should be viewed and considered within their historical context. They do not represent the views of Iowa State University or the Library, which strives to create and maintain a welcoming and inclusive environment.*
+{% capture disclaimer %}
+***Please Note***: Digital collections materials come from a broad range of sources and time periods. Some of these materials may be offensive, disrespectful, or contain negative stereotypes. Their presence should be viewed and considered within their historical context. They do not represent the views of Iowa State University or the Library, which strives to create and maintain a welcoming and inclusive environment.
+{% endcapture %}
+{% include feature/alert.html text=disclaimer color="warning" %}{:.narrow-content}
 
 ## How to Find the Collections
 
 Our Digital Collections pages are a work in progress during Spring 2025! Part of this work includes creating an advanced search feature. Therefore, searching across all items in all collections at the same time is not yet possible. This will be available by summer 2025. Our new CollectionBuilder platform offers a wide variety of search possibilities, which are outlined below.
 
-To search across all collections, use the [main portal](https://digitalcollections.lib.iastate.edu/){:target="_blank" rel="noopener"}. You can browse the cards for each collection or use the search bar to search for terms (text searched will be collection titles and descriptions only). Searching at the resource level, such as for text within the resources, needs to be done at the collection level (and can only be done for when machine readable text exists – not all resources, especially handwritten, include resource text). 
+To search across all collections, use the [main portal](https://digitalcollections.lib.iastate.edu/). You can browse the cards for each collection or use the search bar to search for terms (text searched will be collection titles and descriptions only). Searching at the resource level, such as for text within the resources, needs to be done at the collection level (and can only be done for when machine readable text exists – not all resources, especially handwritten, include resource text). 
 
-*Browsing*
+### Browsing
 
 You can casually look through any or all our digital collections by scrolling through the browse or data pages. If a collection has more than one subject or location assigned, you can browse these pages as well and select terms of interest to view relevant collections or digital collection items (when you are within a specific collection).
 
@@ -38,7 +43,7 @@ If you would like to view the items you see here in-person ask [Special Collecti
 
 ## How to Use the Collections
 
-*Integrate collection materials into teaching materials.*
+### Integrate collection materials into teaching materials
 
 Though nothing replaces the experience of having a physical object in your hands, the digital platform allows distance viewing and easier integration of materials into class outcomes. You can either encourage the use of the digital collections platform to view and analyze objects relevant to your teaching goals or develop something a little more robust. A digital exhibit is a great way to facilitate specific experiences and interaction with the digital collections and can make a hands-on project based experience for your students.
 
@@ -58,17 +63,18 @@ Most collections should be available to users on and off campus. Occasionally, c
 
 We are always looking for ways to improve our collections and the digital collection platform. If you have ideas for improvement, we welcome your feedback. As an ongoing initiative, we are creating transcriptions of our digital collections to facilitate full-text, keyword searching, and computational analysis.  
 
-Collection Development Process  
+### Collection Development Process
+
 1. Project proposed 
 2. Stakeholders determine scope and deliverables 
 3. Project evaluated by Collection Development Team using selection criteria 
 4. If chosen, project enters the project creation workflow 
 5. Project assessment and selection
-    a. ​Specific materials identified for inclusion
-    b. Individual materials assessed for inclusion. Considerations include:
-        i. Rights, privacy, and ethics
-        ii. Access and use
-        iii. Time and effort  
+    - ​Specific materials identified for inclusion
+    - Individual materials assessed for inclusion. Considerations include:
+        - Rights, privacy, and ethics
+        - Access and use
+        - Time and effort  
 6. Conservation assessment and stabilization 
 7. Digitization 
 8. Metadata generation 
