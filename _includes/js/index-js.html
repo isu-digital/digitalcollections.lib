@@ -3,7 +3,7 @@
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
     
 </script>
-<script>{% assign carousel-items = site.data.index-carousel | where_exp: 'c', 'c.title' %}
+<!--<script>{% assign carousel-items = site.data.index-carousel | where_exp: 'c', 'c.title' %}
     /* add item data */
     // title,text,src,btn,link
     var carouselItems = {{ carousel-items | jsonify }};
@@ -48,4 +48,4 @@
     carouselIndicators.innerHTML = indicators;
     // add slides to the page
     carousel.innerHTML = slides;
-</script>
+</script>-->
