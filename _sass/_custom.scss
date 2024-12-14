@@ -3,12 +3,24 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-/* navbar */
-#tower-logo {
-    max-height: 45px;
+/* base */
+h1 {
+    font-family: 'Merriweather';
 }
+
+.serif-title {
+    font-family: 'Merriweather';
+}
+
+// fix info btn text color
+.btn-info, .btn-outline-info,
+.btn-info:hover, .btn-outline-info:hover {
+    color: #fff;
+}
+
+/* navbar */
 #nav-logo {
-    max-height: 45px;
+    max-height: 55px;
 }
 
 /* override icon styles */
@@ -20,8 +32,8 @@
 
 /* index */
 #home-title-box {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 5em;
+    padding-bottom: 18em;
 }
 #carouselInner {
     .carousel-caption {
