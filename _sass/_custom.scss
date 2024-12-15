@@ -12,6 +12,31 @@ h1 {
     font-family: 'Merriweather';
 }
 
+.site-title {
+    color: #7c2529 !important;
+}
+
+.site-title:hover {
+    color: #C8102E !important;
+}
+
+.nav-item-top > a {
+    padding: 0;
+    color: #c8102e !important;
+    margin: 0;
+    border-radius: 0;
+    font-family: Arial,Helvetica Neue,sans-serif;
+    font-weight: 700;   
+}
+
+.nav-item-top > a:hover {
+    color: #7c2529 !important;
+}
+
+.nav-item-top > a.active {
+    color: #7c2529 !important;
+}
+
 // fix info btn text color
 .btn-info, .btn-outline-info,
 .btn-info:hover, .btn-outline-info:hover {
