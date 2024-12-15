@@ -23,6 +23,12 @@ h1 {
     max-height: 55px;
 }
 
+/* browse */
+.fixed-height {
+    height: 300px;
+    object-fit: cover;
+}
+
 /* override icon styles */
 .icon-nav {
     width: 1em;
@@ -92,24 +98,4 @@ h1 {
 
 .footer-list > a:hover {
     color: #f1be48;
-}
-
-.social {
-    border: .125rem solid #f1be48;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.social svg {
-    width: 60%;
-    height: 60%;
-    color: #f1be48;
-}
-
-.social:hover {
-    background-color: #7c2529;
 }
