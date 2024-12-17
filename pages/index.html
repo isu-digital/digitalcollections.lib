@@ -26,7 +26,7 @@ custom-foot: js/index-js.html
                         <hr class="text-green-light w-50 mx-auto">
 
                         <h2 class="card-title text-white h5">Browse Collections by Topic:</h2>
-                        {% assign topics = "Iowa History;Ornithology;Technology;Agriculture; Architecture;Art;Statistics; Military History" | split: ';' %}
+                        {% assign topics = "Iowa History;Ornithology;Technology;Agriculture;Architecture;Art;Military History" | split: ';' %}
                         {% for t in topics %}
                         <a class="btn btn-green-light my-2 mx-1" href="{{ '/collections.html' | relative_url }}#{{ t | url_param_escape }}">{{ t }}</a>
                         {% endfor %}
