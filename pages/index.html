@@ -22,13 +22,26 @@ custom-foot: js/index-js.html
                                 <button class="btn btn-primary" type="submit" title="Submit search" id="search-collections-button" >Search</button>
                             </div>
                         </form>
+
+                        <div class="alert alert-warning alert-dismissible feature-alert text-start" role="alert">
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            <h2>Digital Collections Work in Progress!</h2>
+                            <p>We are in the process of migrating to a new digital collections platform. At this time, <strong>cross-collection search functionality is unavailable</strong>.</p>
+                            <p>To explore our collections:</p>
+                            <ul>
+                                <li>Use the search box on this page to <strong>filter for collections of interest</strong> and view them individually <em>(only collection titles and descriptions will be searched)</em>.</li>
+                                <li>Within each collection, search for items using the <strong>search bar in the collection's navigation menu</strong>.</li>
+                            </ul>
+                            <p>We apologize for the inconvenience and appreciate your patience as we complete this transition. Cross-collection search functionality will be restored in late spring 2025.</p>
+                            <p>Thank you for your understanding! Please <a href="https://forms.office.com/r/rbtMLy9D7i" target="_blank" rel="noopener"><strong>contact us</strong></a> with any questions.</p>
+                        </div>
                         
                         <hr class="text-green-light w-50 mx-auto">
 
                         <h2 class="card-title text-white h5">Browse Collections by Topic:</h2>
                         {% assign topics = "Iowa History;Ornithology;Technology;Agriculture;Architecture;Art;Military History" | split: ';' %}
                         {% for t in topics %}
-                        <a class="btn btn-green-light my-2 mx-1" href="{{ '/collections.html' | relative_url }}#{{ t | url_param_escape }}">{{ t }}</a>
+                        <a class="btn btn-secondary-orange my-2 mx-1" href="{{ '/collections.html' | relative_url }}#{{ t | url_param_escape }}">{{ t }}</a>
                         {% endfor %}
                         
                         <!--<div class="text-end">
