@@ -2,6 +2,7 @@
 title: Data
 layout: data
 permalink: /data.html
+noindex: true
 ---
 
 ## Collection Metadata
