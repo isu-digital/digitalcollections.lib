@@ -18,7 +18,7 @@ custom-foot: js/index-js.html
 
                         <form title="Browse digital collections" role="search" id="collection-search" class="mb-5 px-md-5" onsubmit="search_collections(); return false;">
                             <div class="input-group input-group-lg ">
-                                <input type="search" name="search_terms" class="form-control" id="search-collections" placeholder="Find a collection..." >    
+                                <input type="search" name="search_terms" class="form-control" id="search-collections" placeholder="Search..." >    
                                 <button class="btn btn-primary" type="submit" title="Submit search" id="search-collections-button" >Search</button>
                             </div>
                         </form>
@@ -26,14 +26,13 @@ custom-foot: js/index-js.html
                         <div class="alert alert-warning alert-dismissible feature-alert text-start" role="alert">
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                             <h2>Digital Collections Work in Progress!</h2>
-                            <p>We are in the process of migrating to a new digital collections platform. At this time, <strong>cross-collection search functionality is unavailable</strong>.</p>
-                            <p>To explore our collections:</p>
+                            <p>Behind the scenes we are migrating our digital collections platform to bring better performance and search functionality to our distinctive collections. To explore our collections:</p>
                             <ul>
-                                <li>Use the search box on this page to <strong>filter for collections of interest</strong> and view them individually <em>(only collection titles and descriptions will be searched)</em>.</li>
+                                <li>Use our temporary <a href="{{ '/google.html' | relative_url }}"><strong>Google Custom Search</strong></a> to search across collections. Full cross-collection search will be restored in late spring 2025.</li>
+                                <li>Use the search box on the <a href="{{ '/collections.html' | relative_url }}"><strong>Collections</strong></a> page to <strong>filter and view collections of interest</strong>.</li>
                                 <li>Within each collection, search for items using the <strong>search bar in the collection's navigation menu</strong>.</li>
                             </ul>
-                            <p>We apologize for the inconvenience and appreciate your patience as we complete this transition. Cross-collection search functionality will be restored in late spring 2025.</p>
-                            <p>Thank you for your understanding! Please <a href="https://forms.office.com/r/rbtMLy9D7i" target="_blank" rel="noopener"><strong>contact us</strong></a> with any questions.</p>
+                            <p>We apologize for the inconvenience and appreciate your patience as we complete this transition. Please <a href="https://forms.office.com/r/rbtMLy9D7i" target="_blank" rel="noopener"><strong>contact us</strong></a> with any questions.</p>
                         </div>
                         
                         <hr class="text-green-light w-50 mx-auto">
@@ -61,6 +60,12 @@ custom-foot: js/index-js.html
 </div>
 
 <script>
+    // direct search to google
+    function search_collections() {
+        var searchTerms = document.getElementById('search-collections').value;
+        var searchUrl = 'google.html?q=' + encodeURIComponent(searchTerms);
+        window.location.href = searchUrl;
+    }
 
     // set up banner images
     var bannerImages = [ 
@@ -78,8 +83,10 @@ custom-foot: js/index-js.html
     document.getElementById("featured-image-link").innerHTML = `<a class="text-white fs-6" href="${featuredImage.link}" title="${featuredImage.alt}">Featured Image</a>`;
 
     // browse collections
+    /*
     function search_collections() {
         var query = document.getElementById("search-collections").value;
         window.open("{{ '/collections.html' | relative_url }}#" + encodeURI(query) , "_self" );
     }
+    */
 </script>
