@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/universityphotographs/rs-4-8-h_library_170-01-02.jpg" heading="Digital Collections" text="Iowa State University Library" padding="6em" %}
 
-{% include feature/nav-menu.html sections="What to Expect;How to Find the Collections;How to Use the Collections;Availablility;Contact" %}
+{% include feature/nav-menu.html sections="What to Expect;How to Find the Collections;How to Use the Collections;Availability;Contact" %}
 
 # About Digital Collections
 
@@ -25,7 +25,7 @@ The resources span thematic areas focusing on ISU research areas such as science
 {:.text-center}
 
 {% capture disclaimer %}
-***Please Note***: Digital collections materials come from a broad range of sources and time periods. Some of these materials may be offensive, disrespectful, or contain negative stereotypes. Their presence should be viewed and considered within their historical context. They do not represent the views of Iowa State University or the Library, which strives to create and maintain a welcoming and inclusive environment.
+***Please Note***: Digital collections materials come from a broad range of sources and time periods. Some of these materials may be offensive, disrespectful, or contain negative stereotypes. Their presence should be viewed and considered within their historical context. They do not represent the views of Iowa State University or the Library, which strives to create and maintain a welcoming environment.
 {% endcapture %}
 {% include feature/alert.html text=disclaimer color="warning" %}{:.narrow-content}
 
@@ -39,7 +39,7 @@ To search across all collections, use the [main portal](https://digitalcollectio
 
 You can casually look through any or all our digital collections by scrolling through the browse or data pages. If a collection has more than one subject or location assigned, you can browse these pages as well and select terms of interest to view relevant collections or digital collection items (when you are within a specific collection).
 
-If you would like to view the items you see here in-person ask [Special Collections and University Archives]( https://specialcollections.lib.iastate.edu/){:target="_blank" rel="noopener"} and they will happily gather the materials for you. Most materials within Digital Collections are from Special Collections and University Archives (SCUA), but not all. The item description (metadata) field “contributing institution” will denote if the item is within SCUA or the general library. 
+If you would like to view the items you see here in-person ask [Special Collections and University Archives](https://specialcollections.lib.iastate.edu/){:target="_blank" rel="noopener"} and they will happily gather the materials for you. Most materials within Digital Collections are from Special Collections and University Archives (SCUA), but not all. The item description (metadata) field “contributing institution” will denote if the item is within SCUA or the general library. 
 
 ## How to Use the Collections
 
@@ -78,6 +78,7 @@ We are always looking for ways to improve our collections and the digital collec
 6. Conservation assessment and stabilization 
 7. Digitization 
 8. Metadata generation 
+    - Our team uses a [defined set of metadata fields]({{ '/metadata.html' | relative_url }}) to describe our digital collections material
 9. Digital collection added to CollectionBuilder, the ISU Library’s digital collections platform 
 10. Digital collection made available to the public 
 
