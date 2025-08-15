@@ -31,15 +31,15 @@ The resources span thematic areas focusing on ISU research areas such as science
 
 ## How to Find the Collections
 
-Our Digital Collections pages are a work in progress during Spring 2025! Part of this work includes creating an advanced search feature. Therefore, searching across all items in all collections at the same time is not yet possible. This will be available by summer 2025. Our new CollectionBuilder platform offers a wide variety of search possibilities, which are outlined below.
+Our Digital Collections pages are a work in progress during 2025! Our new CollectionBuilder platform offers a wide variety of search possibilities, which are outlined below and on our FAQ page. Part of our work during 2025 is to enhance full text search of resources. Not all resources will have this functionality. 
 
-To search across all collections, use the [main portal](https://digitalcollections.lib.iastate.edu/). You can browse the cards for each collection or use the search bar to search for terms (text searched will be collection titles and descriptions only). Searching at the resource level, such as for text within the resources, needs to be done at the collection level (and can only be done for when machine readable text exists – not all resources, especially handwritten, include resource text). 
+To search across all collections, use the [main portal](https://digitalcollections.lib.iastate.edu/). You can browse the cards for each collection or use the search bar. Searching at the resource level, such as for text within the resources, needs to be done at the collection level (and can only be done for when machine readable text exists – not all resources, especially handwritten, include resource text). 
 
 ### Browsing
 
 You can casually look through any or all our digital collections by scrolling through the browse or data pages. If a collection has more than one subject or location assigned, you can browse these pages as well and select terms of interest to view relevant collections or digital collection items (when you are within a specific collection).
 
-If you would like to view the items you see here in-person ask [Special Collections and University Archives](https://specialcollections.lib.iastate.edu/){:target="_blank" rel="noopener"} and they will happily gather the materials for you. Most materials within Digital Collections are from Special Collections and University Archives (SCUA), but not all. The item description (metadata) field “contributing institution” will denote if the item is within SCUA or the general library. 
+If you would like to view the items you see here in-person ask [Special Collections and University Archives](https://specialcollections.lib.iastate.edu/){:target="_blank" rel="noopener"} and they will gather the materials for you. Most materials within Digital Collections are from Special Collections and University Archives (SCUA), but not all. The item description (metadata) field “contributing institution” will denote if the item is within SCUA or the general library. 
 
 ## How to Use the Collections
 
@@ -57,7 +57,7 @@ Though this project pre-dates the capabilities of our digital collections platfo
 
 ## Availability
 
-Most collections should be available to users on and off campus. Occasionally, collections may be restricted, and this will be noted in the description. If you have issues accessing the online materials, [please contact us](https://forms.office.com/r/rbtMLy9D7i){:target="_blank" rel="noopener"}.
+Most collections should be available to users on and off campus. Occasionally, collections may be restricted, and this will be noted in the resource's description. If you have issues accessing the online materials, [please contact us](https://forms.office.com/r/rbtMLy9D7i){:target="_blank" rel="noopener"}.
 
 ## Improve Digital Collections 
 
@@ -67,7 +67,7 @@ We are always looking for ways to improve our collections and the digital collec
 
 1. Project proposed 
 2. Stakeholders determine scope and deliverables 
-3. Project evaluated by Collection Development Team using selection criteria 
+3. Project evaluated using selection criteria 
 4. If chosen, project enters the project creation workflow 
 5. Project assessment and selection
     - ​Specific materials identified for inclusion
