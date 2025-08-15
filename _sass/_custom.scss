@@ -37,6 +37,21 @@ h1 {
     color: #c8102e !important;
 }
 
+.dropdown-menu > a {
+    color: #7c2529 !important;
+    font-family: Arial,Helvetica Neue,sans-serif;
+    font-weight: 700;   
+}
+
+.dropdown-menu > a:hover {
+    color: #c8102e !important;
+}
+
+.dropdown-menu > a.active {
+    color: #c8102e !important;
+    background-color: #fff !important;
+}
+
 // fix info btn text color
 .btn-info, .btn-outline-info,
 .btn-info:hover, .btn-outline-info:hover {
