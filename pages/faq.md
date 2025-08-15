@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/universityphotographs/rs-4-8-h_library_170-01-02.jpg" heading="Digital Collections" text="Iowa State University Library" padding="6em" %}
+{% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/universityphotographs/rs-4-8-h_library_147-02-03.jpg" heading="Digital Collections" text="Iowa State University Library" padding="2em" %}
 
 {% include feature/nav-menu.html sections="Getting Started;Searching;Learning More;Contacting Us" %}
 
