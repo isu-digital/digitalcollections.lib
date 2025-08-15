@@ -10,9 +10,11 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://isuu00001library102stg.blob.core.windows.net/digital-objects/universityphotographs/rs-4-8-h_library_170-01-02.jpg" heading="Digital Collections" text="Iowa State University Library" padding="6em" %}
 
-{% include feature/nav-menu.html sections="What to Expect;How to Find the Collections;How to Use the Collections;Availability;Contact" %}
+{% include feature/nav-menu.html sections="Getting Started;Searching;Learning More;Contacting Us" %}
 
-# Frequently Asked Questions (FAQ)
+# Frequently Asked Questions
+
+## Getting Started
 
 **What are the Digital Collections?**
 
@@ -34,15 +36,19 @@ Citation information is located towards the bottom of each resource’s page wit
 
 The main site lists all digital collections and provides the ability to search the collections’ titles and descriptions. Each digital collection’s home page provides a brief description of the collection, a few subject-related terms to select, and a rotating carousal of resources. The following pages are also available for exploring within each collection:
 
-·         Browse and Search: browse and use the page’s search bar to filter collection items based on keywords in the metadata
+- Browse and Search: browse and use the page’s search bar to filter collection items based on keywords in the metadata
 
-·         Subjects and Locations: explore keywords across collection items
+- Subjects and Locations: explore keywords across collection items
 
-·         Timeline: view item thumbnails on a timeline
+- Timeline: view item thumbnails on a timeline
 
-·         Data: view specific keywords in metadata fields (title, date, description, subjects) for each resource in a table format (or use the data page’s search bar)
+- Data: view specific keywords in metadata fields (title, date, description, subjects) for each resource in a table format (or use the data page’s search bar)
 
-**Searching**  
+**What do the “years” mean on the timeline drop-down? Why are there only a limited number of years appearing when I know there should be others?**
+
+Especially for collections with a large number of items, the timeline drop-down will contain a subset of years to make it easier to navigate to the page you need.
+
+## Searching 
    
 **How can I search across collections?**  
 The [search page](https://digitalcollections.lib.iastate.edu/search)\[WO5\]  is a great place to start. It has a variety of search options, including limiting your search to specific collections (“Select Collections” on left-hand sidebar), selecting which particular descriptive fields you would like to search (title, creator, location, and others) under Advanced Options in the upper right, and narrowing down your search by terms found within these same descriptive fields using the left-hand sidebar.  
@@ -60,14 +66,12 @@ As many of the resources within Digital Collections are scanned and are not orig
    
 **When I search within a PDF, multiple lines are highlighted instead of the search term(s) I am using. Why is this happening?**  
 This is often due to what is used to view the PDF. This frequently happens when using the browser Microsoft Edge. Try using Adobe, Chrome, Firefox, and other options.  
- 
+
+## Learning More
+
 **The images are loading slowly. What do I do?**
 
 Each resource has downloadable files, such as PDFs or JPEGs. You can also [contact us](https://forms.office.com/r/rbtMLy9D7i) to let us know.
-
-**What do the “years” mean on the timeline drop-down? Why are there only a limited number of years appearing when I know there should be others?**
-
-Especially for collections with a large number of items, the timeline drop-down will contain a subset of years to make it easier to navigate to the page you need.
 
 **I see the resource I am interested in online, but I would like to see the physical object. How do I do so?**
 
@@ -81,6 +85,7 @@ We welcome feedback on our Digital Collections. Please feel free to [contact us]
 
 The Digital Collections sites are built with [CollectionBuilder](https://collectionbuilder.github.io/), an open source framework for creating digital collection and exhibit websites that is developed by faculty librarians at the University of Idaho Library following the [Lib-Static](https://lib-static.github.io/) methodology. CollectionBuilder uses a CSV template and the static website generator [Jekyll](https://jekyllrb.com/) to create the website interface. Website data is stored on a static server, and within a GitHub repository.  
 
-## How do I contact Digital Collections if I have questions?
+## Contacting us
+**How do I contact Digital Collections if I have questions?**
 
 <a href="https://forms.office.com/r/rbtMLy9D7i" class="btn btn-outline-primary m-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
