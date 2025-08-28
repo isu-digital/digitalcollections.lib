@@ -20,7 +20,7 @@ The Digital Collections are curated groupings of related content representing th
 
 **Are all items in the University Library digitized and in the Digital Collections?**
 
-Only a small fraction of the library’s resources are digitized. Digitized resources can be found within the library’s [QuickSearch](https://www.lib.iastate.edu/). Among many other library resources, Quick Search includes records for Digital Collections items and other digitized materials, such as the Digital Repository.\[OW1\] \[LS2\] \[LS3\] \[WO4\]  Many of the original materials can be found within the library’s [Special Collections and University Archives￼](https://specialcollections.lib.iastate.edu/).
+Only a small fraction of the library’s resources are digitized. Digitized resources can be found within the library’s [QuickSearch](https://www.lib.iastate.edu/). Among many other library resources, Quick Search includes records for Digital Collections items and other digitized materials, such as the [Digital Repository](https://dr.lib.iastate.edu/home). Many of the original materials can be found within the library’s [Special Collections and University Archives](https://specialcollections.lib.iastate.edu/).
 
  **How do I determine if I can use an image (for a publication, website, personal use)?**
 
