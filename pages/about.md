@@ -25,7 +25,7 @@ The resources span thematic areas focusing on ISU research areas such as science
 {:.text-center}
 
 {% capture disclaimer %}
-***Please Note***: Digital collections materials come from a broad range of sources and time periods. Some of these materials may be offensive, disrespectful, or contain negative stereotypes. Their presence should be viewed and considered within their historical context. They do not represent the views of Iowa State University or the Library, which strives to create and maintain a welcoming environment.
+***Please Note***: Iowa State University Library collects, preserves, and provides access to materials for teaching, learning, and research from a broad range of sources and time periods. Some of these materials may be offensive or contain negative stereotypes. Their presence should be viewed and considered within their historical context. They do not represent the views of Iowa State University or the University Library.
 {% endcapture %}
 {% include feature/alert.html text=disclaimer color="warning" %}{:.narrow-content}
 
