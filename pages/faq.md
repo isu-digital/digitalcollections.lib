@@ -49,15 +49,16 @@ Especially for collections with a large number of items, the timeline drop-down 
 ## Searching 
    
 **How can I search across collections?**  
-The [search page](https://digitalcollections.lib.iastate.edu/search)\[WO5\]  is a great place to start. It has a variety of search options, including limiting your search to specific collections (“Select Collections” on left-hand sidebar), selecting which particular descriptive fields you would like to search (title, creator, location, and others) under Advanced Options in the upper right, and narrowing down your search by terms found within these same descriptive fields using the left-hand sidebar.  
+The [search page](https://digitalcollections.lib.iastate.edu/search)  is a great place to start. It has a variety of search options, including limiting your search to specific collections (“Select Collections” on left-hand sidebar), selecting which particular descriptive fields you would like to search (title, creator, location, and others) under Advanced Options in the upper right, and narrowing down your search by terms found within these same descriptive fields using the left-hand sidebar.  
    
 **How can I search across all text within a collection?**  
 Use the search bar with the text “search” in the navigation bar to search all text available. This will bring you to the main search on a separate tab from the collection page.  
    
-**Are the search bars on the Browse and Data pages different from the search bar within the navigation bar, which has the term “Search” within the bar?To do a comprehensive full text search of items across our collections, use the [main search page](https://digitalcollections.lib.iastate.edu/search) or the search bar found in the top navigation menu of any collection site. To browse and filter items within a specific collection, use the search bars and other options on the Browse and Data pages.  
+**Are the search bars on the Browse and Data pages different from the search bar within the navigation bar, which has the term “Search” within the bar?**
+To do a comprehensive full text search of items across our collections, use the [main search page](https://digitalcollections.lib.iastate.edu/search) or the search bar found in the top navigation menu of any collection site. To browse and filter items within a specific collection, use the search bars and other options on the Browse and Data pages.  
 
 **I was using the search page, and I’m now on a new page. What happened?**  
-When you select a resource within the search page, it will open a new tab in your browser and take to that resource, which will be within the resource’s collection (a collection is a related set of resources). All you need to do is go back to your original tab, and continue your search there\!  
+When you select a resource within the search page, it will open a new tab in your browser and take to that resource, which will be within the resource’s collection (a collection is a related set of resources). All you need to do is go back to your original tab, and continue your search there!  
    
 **I’m searching for terms I know are in a resource, but the search is not locating the resource. What do I need to do?**  
 As many of the resources within Digital Collections are scanned and are not originally digital, sometimes the software used to recognize the words and characters is not 100% accurate. Try searching for smaller segments of the word, alternative words, or [contact us](https://forms.office.com/r/rbtMLy9D7i).  
