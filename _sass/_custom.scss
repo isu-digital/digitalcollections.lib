@@ -139,3 +139,14 @@ h1 {
 .footer-list > a:hover {
     color: #f1be48;
 }
+
+/* scroll-to-top btn-link custom styling */
+.btn-link {
+    color: #7c2529 !important;
+    text-decoration: none !important;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #c8102e !important;
+    text-decoration: none !important;
+}
