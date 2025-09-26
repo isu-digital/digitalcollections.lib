@@ -52,7 +52,7 @@ custom-foot: js/browse-js.html
                         <div class="accordion-body">
                             {% assign media = site.data[site.metadata] | map: "media_types" | join: ';' | split: ';' | compact | uniq | sort %}
                             {% for s in media %}
-                            <a href="{{ '/home/collections.html' | relative_url }}#{{ s }}">{{ s }}</a>
+                            <a href="{{ '/collections.html' | relative_url }}#{{ s }}">{{ s }}</a>
                             {% endfor %}
                         </div>
                     </div>
