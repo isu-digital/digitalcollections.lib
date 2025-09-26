@@ -22,7 +22,7 @@ custom-foot: js/browse-js.html
                         <div class="accordion-body">
                             {% assign subjects = site.data[site.metadata] | map: "categories" | join: ';' | split: ';' | compact | uniq | sort %}
                             {% for s in subjects %}
-                            <a href="{{ '/home/collections.html' | relative_url }}#{{ s }}">{{ s }}</a>
+                            <a href="{{ '/collections.html' | relative_url }}#{{ s }}">{{ s }}</a>
                             {% endfor %}
                         </div>
                     </div>
@@ -37,7 +37,7 @@ custom-foot: js/browse-js.html
                         <div class="accordion-body">
                             {% assign locations = site.data[site.metadata] | map: "location" | join: ';' | split: ';' | compact | uniq | sort %}
                             {% for s in locations %}
-                            <a href="{{ '/home/collections.html' | relative_url }}#{{ s }}">{{ s }}</a>
+                            <a href="{{ '/collections.html' | relative_url }}#{{ s }}">{{ s }}</a>
                             {% endfor %}
                         </div>
                     </div>
