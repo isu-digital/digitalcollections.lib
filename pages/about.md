@@ -16,12 +16,12 @@ credits: true
 
 ## What to Expect
 
-Digital Collections provides free online access to over 20,000 of the Iowa State University Library’s rare and unique resources. Many of its resources have been digitized from the library’s Special Collections and University Archives. The resources support the teaching, learning and research needs of scholars, educators, students, and the public. New items are added on a regular basis. If you’re interested in contributing to or creating a digital collection, [please reach out](https://forms.office.com/r/rbtMLy9D7i){:target="_blank" rel="noopener"}.  
+Digital Collections provides free online access to over 20,000 of the Iowa State University Library’s rare and unique resources. Many of its resources have been digitized from the library’s Special Collections and University Archives. The resources support the teaching, learning and research needs of scholars, educators, students, and the public. New items are added on a regular basis. If you’re interested in contributing to or creating a digital collection, [please reach out](https://app.smartsheet.com/b/form/9ab4361fffaf4d2f96684ba9a52c0dd8){:target="_blank" rel="noopener"}.  
 
 The resources span thematic areas focusing on ISU research areas such as science, technology, agriculture, natural resources, political movements, historic events, ISU faculty, students, alumni, Iowa State University, and the State of Iowa. Resource formats include student yearbooks, photographs, maps, books, letters, diaries, and more. All digital files are accompanied by metadata (descriptive, technical, and administrative information) related to the resources to provide greater context. It is our hope that you peruse, browse, learn, and enjoy. 
 
 <a href="{{ '/collections.html' | relative_url }}" class="btn btn-outline-primary m-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg> Browse Digital Collections</a>
-<a href="https://forms.office.com/r/rbtMLy9D7i" class="btn btn-outline-primary m-3" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
+<a href="https://app.smartsheet.com/b/form/9ab4361fffaf4d2f96684ba9a52c0dd8" class="btn btn-outline-primary m-3" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
 {:.text-center}
 
 {% capture disclaimer %}
@@ -57,7 +57,7 @@ Though this project pre-dates the capabilities of our digital collections platfo
 
 ## Availability
 
-Most collections should be available to users on and off campus. Occasionally, collections may be restricted, and this will be noted in the resource's description. If you have issues accessing the online materials, [please contact us](https://forms.office.com/r/rbtMLy9D7i){:target="_blank" rel="noopener"}.
+Most collections should be available to users on and off campus. Occasionally, collections may be restricted, and this will be noted in the resource's description. If you have issues accessing the online materials, [please contact us](https://app.smartsheet.com/b/form/9ab4361fffaf4d2f96684ba9a52c0dd8){:target="_blank" rel="noopener"}.
 
 ## Improve Digital Collections 
 
@@ -84,4 +84,4 @@ We are always looking for ways to improve our collections and the digital collec
 
 ## Contact
 
-<a href="https://forms.office.com/r/rbtMLy9D7i" class="btn btn-outline-primary m-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
+<a href="https://app.smartsheet.com/b/form/9ab4361fffaf4d2f96684ba9a52c0dd8" class="btn btn-outline-primary m-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
