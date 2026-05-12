@@ -61,7 +61,7 @@ To do a comprehensive full text search of items across our collections, use the 
 When you select a resource within the search page, it will open a new tab in your browser and take to that resource, which will be within the resource’s collection (a collection is a related set of resources). All you need to do is go back to your original tab, and continue your search there!  
    
 **I’m searching for terms I know are in a resource, but the search is not locating the resource. What do I need to do?**  
-As many of the resources within Digital Collections are scanned and are not originally digital, sometimes the software used to recognize the words and characters is not 100% accurate. Try searching for smaller segments of the word, alternative words, or [contact us](https://forms.office.com/r/rbtMLy9D7i).  
+As many of the resources within Digital Collections are scanned and are not originally digital, sometimes the software used to recognize the words and characters is not 100% accurate. Try searching for smaller segments of the word, alternative words, or [contact us](https://app.smartsheet.com/b/form/9ab4361fffaf4d2f96684ba9a52c0dd8).  
    
 **When I search within a PDF, multiple lines are highlighted instead of the search term(s) I am using. Why is this happening?**  
 This is often due to what is used to view the PDF. This frequently happens when using the browser Microsoft Edge. Try using Adobe, Chrome, Firefox, and other options.  
@@ -70,7 +70,7 @@ This is often due to what is used to view the PDF. This frequently happens when 
 
 **The images are loading slowly. What do I do?**
 
-Each resource has downloadable files, such as PDFs or JPEGs. You can also [contact us](https://forms.office.com/r/rbtMLy9D7i) to let us know.
+Each resource has downloadable files, such as PDFs or JPEGs. You can also [contact us](https://app.smartsheet.com/b/form/9ab4361fffaf4d2f96684ba9a52c0dd8) to let us know.
 
 **I see the resource I am interested in online, but I would like to see the physical object. How do I do so?**
 
@@ -78,7 +78,7 @@ The originals of most of the items within Digital Collections can be found withi
 
 **How do I report a problem or provide suggestions?**
 
-We welcome feedback on our Digital Collections. Please feel free to [contact us](https://forms.office.com/r/rbtMLy9D7i) to let us know
+We welcome feedback on our Digital Collections. Please feel free to [contact us](https://app.smartsheet.com/b/form/9ab4361fffaf4d2f96684ba9a52c0dd8) to let us know
 
 **What systems and technologies support the Digital Collections?**
 
@@ -87,4 +87,4 @@ The Digital Collections sites are built with [CollectionBuilder](https://collect
 ## Contacting us
 **How do I contact Digital Collections if I have questions?**
 
-<a href="https://forms.office.com/r/rbtMLy9D7i" class="btn btn-outline-primary m-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
+<a href="https://app.smartsheet.com/b/form/9ab4361fffaf4d2f96684ba9a52c0dd8" class="btn btn-outline-primary m-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> Contact Form</a>
